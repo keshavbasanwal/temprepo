@@ -1,0 +1,179 @@
+\documentclass[a4paper]{article}
+    \usepackage{fullpage}
+    \usepackage{amsmath}
+    \usepackage{amssymb}
+    \usepackage{textcomp}
+    \usepackage[utf8]{inputenc}
+    \usepackage[T1]{fontenc}
+    \usepackage[hidelinks]{hyperref}
+    \usepackage[left=2cm, right=2cm, top=2cm]{geometry}
+    \usepackage{longtable}
+    \textheight=10in
+    \pagestyle{empty}
+    \raggedright
+
+    %\renewcommand{\encodingdefault}{cg}
+%\renewcommand{\rmdefault}{lgrcmr}
+
+\def\bull{\vrule height 0.8ex width .7ex depth -.1ex }
+
+% DEFINITIONS FOR RESUME %%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\area} [2] {
+    \vspace*{-9pt}
+    \begin{verse}
+        \textbf{#1}   #2
+    \end{verse}
+}
+
+\newcommand{\lineunder} {
+    \vspace*{-8pt} \\
+    \hspace*{-18pt} \hrulefill \\
+}
+
+\newcommand{\header} [1] {
+    {\hspace*{-18pt}\vspace*{6pt} \textsc{#1}}
+    \vspace*{-6pt} \lineunder
+}
+
+\newcommand{\employer} [3] {
+    { \textbf{#1} (#2)\\ \underline{\textbf{\emph{#3}}}\\  }
+}
+
+\newcommand{\contact} [3] {
+    \vspace*{-10pt}
+    \begin{center}
+        {\Huge \scshape {#1}}\\
+        #2 \\ #3
+    \end{center}
+    \vspace*{-8pt}
+}
+
+\newenvironment{achievements}{
+    \begin{list}
+        {$\bullet$}{\topsep 0pt \itemsep -2pt}}{\vspace*{4pt}
+    \end{list}
+}
+
+\newcommand{\schoolwithcourses} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+    \vspace*{5pt}
+}
+
+\newcommand{\school} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+}
+
+% END RESUME DEFINITIONS %%%%%%%%%%%%%%%%%%%%%%%
+
+    \begin{document}
+    \vspace*{-40pt}
+
+    
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     Profile
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \vspace*{-2pt}
+  \begin{center}
+    {\Huge \scshape {SIDDHARTH YADAV}}\\
+    \vspace*{2pt}
+    \vspace*{2pt}
+    \href{mailto:yadavsiddharth2406@gmail.com}{yadavsiddharth2406@gmail.com} | \href{tel:9521670366}{9521670366} | Ajmer, India\\
+    \vspace*{2pt}
+    
+  \end{center}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    %
+    %     Education
+    %
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+      \header{Education}
+      \vspace{2mm}
+      \textbf{Central Academy Senior Secondary School}\hfill Bangur Nagar\\
+Marticulation(10th) CBSE Board \hfill march 2017\\
+{\sl CGPA: 9.8}\\
+\vspace{2mm}
+      \textbf{Central Academy Senior Secondary School}\hfill Beawar\\
+Senior Secondary(12th) Physics, Chemistry, and Maths \hfill March 2019\\
+{\sl Percentage: 78.2}\%\\
+\vspace{2mm}
+      \textbf{Central University of Rajasthan}\hfill Ajmer\\
+Bechelors of Science Environmental Science \hfill May 2022\\
+{\sl CGPA: 7.20}\\
+\vspace{2mm}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     Skills
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \header{Skills}
+  \vspace{2mm}
+  \begin{longtable}{p{4cm}p{12cm}}
+  • Languages: & Hindi, English. \\
+  • Metaskills: & Fast Learner, Communication skills, Analytical skills, Adaptability, Leadership, Ability to work under pressure.\\
+  • Computer Skills: & Spreadsheets, Presentations, Text editing.\\
+  \end{longtable}
+  \vspace{1mm}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+      %
+      %     Certifications
+      %
+      %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+      \header{Certifications}
+      \vspace{2mm}
+\vspace*{1mm}
+      • Introduction to Psychology, an online non-credit course authorized by Yale University - Coursera.\\
+\vspace*{1mm}
+      • Learning How to Learn: Powerful Mental Tools to help you master tough subjects by Deep Teaching Solutions.\\
+\vspace*{1mm}
+      • Work Smarter, Not Harder: Time Managment for Personal and Professional Productivity by University of California.\\
+\vspace*{1mm}
+      • Stocks and Bonds by University of Michigan.\\
+\vspace*{1mm}
+      • Introduction to Time Value of Money (TVM) by University of Michigan.\\
+\vspace*{1mm}
+      • Speak English Professionally: In Person, Online and On the Phone.\\
+\vspace*{1mm}
+      • Hacking Excercise for Health. The surprising new science of fitness by McMaster University.\\
+\vspace*{1mm}
+      • Experimentation for Improvement by McMaster University.\\
+\vspace*{1mm}
+      • Creative Thinking: Techniques and Tools for Success by Imperial College London.\\
+\vspace*{1mm}
+      • Social Psychology by Wesleyan University.\\
+\vspace*{1mm}
+      • Developing an Entrepreneurial Mindset: First Step Towards Success by Michigan State University.\\
+\vspace*{1mm}
+      • Vital Signs: Understanding What the Body is Telling Us by University of Pennsylvania.\\
+\vspace*{1mm}
+      • Mindshift: Break Through the Obstacles to Learning and Discover Your Hidden Potential by McMaster University.\\
+      \vspace{2mm}
+
+\header{Achievements}
+      \vspace{2mm} 
+    • Conducted a study and made a report titled "Drought Analysis and Prediction using SPI of Rajasthan", under the supervision of Dr. Nivedita Chaudhary.\\
+    • Qualified CUCET (iMSc Environmental Science at Central University of Rajasthan, Ajmer) - 2019.\\
+\vspace*{2mm}
+
+\header{Hobbies}
+      \vspace{2mm}
+      Working out, Yoga, Reading, Running, Public Speaking, Self Improvement, Problem Solving.\\ 
+\vspace*{2mm} 
+\header{About Me}
+      \vspace{2mm}
+      Dedicated University student and an aspiring manager. Curious and ready to bring about a significant change.  Highly organized, and skilled in written and verbal communication. Proven ability to establish and maintain excellent communication and professional relationships with people. Committed to learning new techniques and its subsequent applications. Fitness enthusiast, Avid reader.  
+\vspace*{2mm}
+    \end{document}
